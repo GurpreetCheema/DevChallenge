@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+
+* 
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 
+{
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: -0.3px;
+    margin-top: 50px;
+}
+
+span 
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 
+{
+    margin-top: 25px;
+}
+
+p 
+{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 700px;
+    margin: 20px 10px 10px 10px;
+}
+
+.whiteColor 
+{
+    color: rgb(255, 255, 255);
+}
+
+.jam 
+{
+    height: 850px;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+.text-product 
+{
+    margin: 0px 100px 50px 150px;
+}
+
+.gradient 
+{
+    background: rgb(53, 83, 160);
+    background: -moz-linear-gradient(44deg, rgb(4, 45, 41) 0%, rgb(45, 88, 145) 25%, rgba(108, 179, 216, 1) 50%, rgb(23, 46, 85) 75%, rgba(37, 65, 133, 1) 100%);
+    background: -webkit-linear-gradient(44deg, rgb(29, 120, 132) 0%, rgba(64, 108, 165, 1) 25%, rgb(19, 38, 129) 50%, rgb(58, 100, 173) 75%, rgb(28, 54, 120) 100%);
+    background: linear-gradient(44deg, rgb(11, 140, 150) 0%, rgba(64, 108, 165, 1) 25%, rgb(89, 153, 187) 50%, rgba(51, 88, 150, 1) 75%, rgb(22, 44, 99) 100%);
+    padding: 0px 200px 150px 200px;
+}
+
+.listing 
+{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.796);
+    line-height: normal;
+    list-style: none;
+}
+
+.item 
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item p 
+{
+    text-align: right;
+    margin: 0px;
+}
+
+.item span 
+{
+    width: 700px;
+    font-size: 22px;
+}
+
+.product 
+{
+    margin: 30px 50px 40px 50px;
+}
+
+.center 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-specs 
+{
+    display: grid;
+    border-radius: 7px;
+    grid-template-columns: 60px 60px;
+    padding: 100px 50px 50px 100px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(254, 253, 253);
+   
+}
+
+.wrapper 
+{
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+b 
+{
+    font-size: 22px; 
+}
+
+.overview 
+{
+    display: flex;
+    align-items: center;
+    margin-left: -250px;
+}
+
+.carousel 
+{
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i 
+{
+    margin-right: 25px;
+}
+.card {
+    height: 400px;
+    box-shadow: 5px 5px 5px #8f8996;
+    border-radius: 3px;
+    border-width: 2px;
+}
+.card-images {
+    height: 200px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+button 
+{
+    font-size: 25px;
+    font-weight: 750;
+    background-color: rgb(21, 80, 129);
+    border:0cqb;
+    padding: 20px 100px;
+    border-radius: 55px;
+}
